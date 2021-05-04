@@ -1,0 +1,13 @@
+{
+  "name": "ms-sp-gtrendscheck",
+  "version": "1.0.0",
+  "description": "Microservice for tracking users weather data and pushing it into the dataLayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikola van der made",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
