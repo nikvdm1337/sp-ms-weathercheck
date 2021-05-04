@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>window.SARAs_data = window.SARAs_data || [];
+        SARAs_data = [{
+            page: {
+                attributes: {
+                    category : {
+                        route: "article"
+                    }
+                },
+                pageTitle: "<<pageName>>",
+                paywall: {
+                    attributes: {
+                        is_active: false
+                    }
+                }
+            },
+            user: {
+                segment: {
+                    access : {
+                        Spplus: false,
+                        Sppur: false,
+                    },
+                    has_conditional_access: true,
+                    has_paid_access: false,
+                    has_spiegelNoAdsMonthly_access: false,
+                    is_loggedIn: false,
+                }
+            }
+        }]
+    
+    </script>
+<script src="./launch-3478e238f3485-development.min.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="get-location">Get location</button>
+    <button id="get-weather">Get weather data</button>
+    <p>Latitude:</p>
+    <p id="latitude"></p>
+    <p>Longtitude:</p>
+    <p id="longtitude"></p>
+    <span>Weather:</span><p id="weatherState"></p>
+    <span>Temperature:</span><p id="temperature"></p>
+</body>
+</html>
